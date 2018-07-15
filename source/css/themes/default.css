@@ -1,0 +1,17 @@
+.json-flowchart .level .node {
+  border: 1px solid #6688e8;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.json-flowchart .level .node header {
+  background: #6688e8;
+  font-weight: bold;
+  color: #f6f0f0;
+}
+.json-flowchart .level .node .content {
+  background: #f6f0f0;
+}
+.json-flowchart svg line {
+  stroke: #6688e8;
+  stroke-width: 1px;
+}

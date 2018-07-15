@@ -1,0 +1,29 @@
+@themeColor: #6688e8;
+@accentColor: #f6f0f0;
+
+.json-flowchart{
+    .level{
+        .node{
+            border:1px solid @themeColor;
+            border-radius:0.5rem;
+            overflow:hidden;
+
+            header{
+                background:@themeColor;
+                font-weight:bold;
+                color:@accentColor;
+            }
+
+            .content{
+                background:@accentColor;
+            }
+        }
+    }
+
+    svg{
+        line{
+            stroke:@themeColor;
+            stroke-width:1px;
+        }
+    }
+}

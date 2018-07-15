@@ -36,7 +36,7 @@
     [
         {
             "title" : "Welcome Email",
-            "content": "",
+            "content": null,
             "class": "email",
             "id":"welcome-email",
             "links":[]

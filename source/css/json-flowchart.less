@@ -9,12 +9,22 @@
         .node{
             display:inline-block;
             vertical-align:top;
-            background:#eee;
-            padding:1rem;
-            border-radius:0.5rem;
 
             &:not(:last-of-type){
                 margin-right:1rem;
+            }
+
+            header, .content{
+                padding:1rem;
+            }
+
+            header{
+                background:#ddd;
+                font-weight:bold;
+            }
+
+            .content{
+                background:#eee;
             }
         }
     }

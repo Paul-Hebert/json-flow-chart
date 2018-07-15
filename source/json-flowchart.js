@@ -19,7 +19,11 @@ var jsonFlowChart = (function() {
                 nodeElement.className = "node " + node.class;
                 nodeElement.setAttribute("data-level", + levelCount);
                 nodeElement.id = node.id;
-                nodeElement.innerHTML = "<h2>" + node.title +  "</h2>" + node.content;
+
+                var header = "<header>" + node.title +  "</header>";
+                var content = "<div class='content'>" + node.content + "</div>";
+
+                nodeElement.innerHTML = header + (node.content ===  null ? "" : content);
 
                 levelElement.appendChild(nodeElement);
             });
