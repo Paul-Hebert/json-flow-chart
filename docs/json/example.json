@@ -1,0 +1,52 @@
+[
+    [
+        {
+            "title" : "Landing Page",
+            "content": "Hero image, descriptive text and Call To Action",
+            "class": "page",
+            "id":"landing",
+            "links":[
+                "register"
+            ]
+        }
+    ],
+    [
+        {
+            "title" : "Registration Page",
+            "content": "Required info: Email, Location, Password, Opt-In to Emails. Link to Terms and Conditions",
+            "class": "page",
+            "id":"register",
+            "links":[
+                "preferences"
+            ]
+        }
+    ],
+    [
+        {
+            "title" : "Preferences",
+            "content": "Choose plant types. Review Profile and Settings. Save/Confirm",
+            "class": "page",
+            "id":"preferences",
+            "links":[
+                "success",
+                "welcome-email"
+            ]
+        }
+    ],
+    [
+        {
+            "title" : "Welcome Email",
+            "content": "",
+            "class": "email",
+            "id":"welcome-email",
+            "links":[]
+        },
+        {
+            "title" : "Success!",
+            "content": "Plus Plant Nows if Any",
+            "class": "page",
+            "id":"success",
+            "links":[]
+        }
+    ]
+]
